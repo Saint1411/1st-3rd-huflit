@@ -1,0 +1,294 @@
+[
+  {
+    "MAHDBAN": "HDB01",
+    "Ngay": "2022-01-02",
+    "MAKH": "KH01",
+    "MANV": "NV01",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD01",
+        "MAHDBAN": "HDB01",
+        "MASP": "SP01",
+        "SLBAN": 2,
+        "THANHTIEN": 100
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB02",
+    "Ngay": "2022-06-01",
+    "MAKH": "KH02",
+    "MANV": "NV02",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD02",
+        "MAHDBAN": "HDB02",
+        "MASP": "SP03",
+        "SLBAN": 3,
+        "THANHTIEN": 300
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB03",
+    "Ngay": "2022-08-08",
+    "MAKH": "KH03",
+    "MANV": "NV02",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD03",
+        "MAHDBAN": "HDB03",
+        "MASP": "SP05",
+        "SLBAN": 5,
+        "THANHTIEN": 400
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB04",
+    "Ngay": "2021-09-01",
+    "MAKH": "KH04",
+    "MANV": "NV03",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD04",
+        "MAHDBAN": "HDB04",
+        "MASP": "SP02",
+        "SLBAN": 1,
+        "THANHTIEN": 50
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB05",
+    "Ngay": "2022-12-09",
+    "MAKH": "KH02",
+    "MANV": "NV02",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD05",
+        "MAHDBAN": "HDB05",
+        "MASP": "SP08",
+        "SLBAN": 2,
+        "THANHTIEN": 70
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB06",
+    "Ngay": "2022-10-17",
+    "MAKH": "KH03",
+    "MANV": "NV02",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD06",
+        "MAHDBAN": "HDB06",
+        "MASP": "SP12",
+        "SLBAN": 6,
+        "THANHTIEN": 420
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB07",
+    "Ngay": "2022-05-27",
+    "MAKH": "KH03",
+    "MANV": "NV02",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD07",
+        "MAHDBAN": "HDB07",
+        "MASP": "SP31",
+        "SLBAN": 1,
+        "THANHTIEN": 30
+      },
+      {
+        "MACTHDB": "CTHD08",
+        "MAHDBAN": "HDB07",
+        "MASP": "SP31",
+        "SLBAN": 5,
+        "THANHTIEN": 150
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB09",
+    "Ngay": "2022-03-03",
+    "MAKH": "KH04",
+    "MANV": "NV02",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD09",
+        "MAHDBAN": "HDB09",
+        "MASP": "SP42",
+        "SLBAN": 7,
+        "THANHTIEN": 220
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB10",
+    "Ngay": "2022-12-12",
+    "MAKH": "KH05",
+    "MANV": "NV01",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD10",
+        "MAHDBAN": "HDB10",
+        "MASP": "SP36",
+        "SLBAN": 8,
+        "THANHTIEN": 290
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB11",
+    "Ngay": "2022-11-11",
+    "MAKH": "KH01",
+    "MANV": "NV03",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD11",
+        "MAHDBAN": "HDB11",
+        "MASP": "SP12",
+        "SLBAN": 12,
+        "THANHTIEN": 720
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB12",
+    "Ngay": "2022-10-14",
+    "MAKH": "KH03",
+    "MANV": "NV04",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD12",
+        "MAHDBAN": "HDB12",
+        "MASP": "SP11",
+        "SLBAN": 3,
+        "THANHTIEN": 300
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB13",
+    "Ngay": "2022-08-04",
+    "MAKH": "KH02",
+    "MANV": "NV05",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD13",
+        "MAHDBAN": "HDB13",
+        "MASP": "SP10",
+        "SLBAN": 6,
+        "THANHTIEN": 520
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB14",
+    "Ngay": "2022-01-09",
+    "MAKH": "KH05",
+    "MANV": "NV01",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD14",
+        "MAHDBAN": "HDB14",
+        "MASP": "SP17",
+        "SLBAN": 7,
+        "THANHTIEN": 760
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB15",
+    "Ngay": "2022-02-03",
+    "MAKH": "KH04",
+    "MANV": "NV04",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD15",
+        "MAHDBAN": "HDB15",
+        "MASP": "SP19",
+        "SLBAN": 12,
+        "THANHTIEN": 880
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB16",
+    "Ngay": "2022-04-19",
+    "MAKH": "KH05",
+    "MANV": "NV01",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD16",
+        "MAHDBAN": "HDB16",
+        "MASP": "SP21",
+        "SLBAN": 4,
+        "THANHTIEN": 340
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB17",
+    "Ngay": "2022-11-29",
+    "MAKH": "KH03",
+    "MANV": "NV01",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD17",
+        "MAHDBAN": "HDB17",
+        "MASP": "SP29",
+        "SLBAN": 3,
+        "THANHTIEN": 120
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB18",
+    "Ngay": "2022-10-19",
+    "MAKH": "KH02",
+    "MANV": "NV02",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD18",
+        "MAHDBAN": "HDB18",
+        "MASP": "SP39",
+        "SLBAN": 2,
+        "THANHTIEN": 110
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB19",
+    "Ngay": "2022-10-10",
+    "MAKH": "KH01",
+    "MANV": "NV03",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD19",
+        "MAHDBAN": "HDB19",
+        "MASP": "SP40",
+        "SLBAN": 1,
+        "THANHTIEN": 50
+      }
+    ]
+  },
+  {
+    "MAHDBAN": "HDB20",
+    "Ngay": "2022-02-08",
+    "MAKH": "KH02",
+    "MANV": "NV04",
+    "CHITIETHOADONBAN": [
+      {
+        "MACTHDB": "CTHD20",
+        "MAHDBAN": "HDB20",
+        "MASP": "SP30",
+        "SLBAN": 5,
+        "THANHTIEN": 90
+      }
+    ]
+  }
+]

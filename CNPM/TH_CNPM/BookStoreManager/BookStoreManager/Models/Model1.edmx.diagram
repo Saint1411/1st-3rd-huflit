@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f06cf8b3fca14e33afb79405fd6cae31" Name="Diagram1">
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.sysdiagram" Width="1.5" PointX="7.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_AdminUser" Width="1.5" PointX="7.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_BAOCAOCONGNO" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_BAOCAOTONKHO" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_ChiTietDatSach" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_CHITIETHOADON" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_CHITIETPHIEUNHAP" Width="1.5" PointX="10" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_DatSach" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_HOADON" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_KHACHHANG" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_PHIEUNHAP" Width="1.5" PointX="7.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_SACH" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBookStoreManagerModel.tbl_THELOAI" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK_BCCongNo_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK_BaoCao_Sach" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK__tbl_ChiTi__MaDat__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK__tbl_ChiTi__MaSac__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK_CTHoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK_CTHoaDon_Sach" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK_PhieuNhap_ChiTiet" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK__tbl_DatSa__MaKha__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBookStoreManagerModel.FK_SACH_THELOAI" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

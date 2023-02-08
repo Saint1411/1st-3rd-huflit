@@ -1,0 +1,25 @@
+﻿@model IEnumerable<BookStore.Models.SACH>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>DANH SÁCH SÁCH</h2>
+@Html.ActionLink("Create New", "Create")
+<div class="container">
+    <div class="row">
+        @foreach (var sach in Model)
+        {
+            <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card-sach">
+                    <p>@Html.DisplayFor(model => sach.MaSach)</p>
+                    <img src="@Url.Content(sach.ImageBook)" height="150" width="150" />
+                    <p>@Html.DisplayFor(model => sach.TenSach)</p>
+                    <p>@Html.DisplayFor(model => sach.Price)</p>
+                    <p><input type="submit" value="Buy" /></p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

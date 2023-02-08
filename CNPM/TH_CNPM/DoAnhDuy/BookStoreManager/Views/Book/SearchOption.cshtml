@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BookStoreManager.Models.SACH>
+
+@{
+    ViewBag.Title = "SearchOption";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+@using (Html.BeginForm("SearchOption", "Book"))
+{
+
+    <div class="container">
+        <span>Từ</span>
+        <input type="number" name="min" />
+        <span>Đến</span>
+        <input type="number" name="max" />
+
+        <input type="submit" name="Search" value="Search" />
+        
+
+        <div class="row" style="margin-top:15px;">
+            @foreach (var pro in Model)
+            {
+                <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-pro" style="border:solid;margin-top:10px;">
+                        <p>@Html.HiddenFor(model => pro.MaSach)</p>
+                        <img style="margin-left:50px; margin-right:50px;" src="@Url.Content(pro.ImageBook)" height="150" width="150" />
+                        <p style="margin-left:20px;margin-top:10px;">@Html.DisplayFor(model => pro.TenSach)</p>
+                        <p style="margin-left:20px">@Html.DisplayFor(model => pro.Price)</p>
+                        <div style="text-align:center">
+                            <a style="color:snow;width:100%" href="/ShoppingCart/AddToCart/@pro.MaSach" class="btn btn-success"><i class="fa-solid fa-cart-plus"></i> Buy</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+}

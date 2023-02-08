@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ứng dụng ôn thi TOEIC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="action_search">Search</string>
+    <string name="action_sort">Sort</string>
+    <string-array name="settings">
+        <item>14sp</item>
+        <item>18sp</item>
+        <item>22sp</item>
+        <item>26sp</item>
+    </string-array>
+</resources>

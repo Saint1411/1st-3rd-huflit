@@ -1,0 +1,67 @@
+﻿@model BookStore.Models.SACH
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SACH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TacGia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuongTon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuongTon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageBook)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageBook)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.THELOAI.NameCate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.THELOAI.NameCate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaSach }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

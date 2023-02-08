@@ -1,0 +1,31 @@
+﻿@model IEnumerable<BookStoreManager.Models.ViewModel>
+
+@{
+    ViewBag.Title = "GroupByTop10";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="container">
+    <h2>Danh sách top 10 sách bán chạy nhất</h2>
+    <table class="table" style="text-align:center;border:solid;">
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+
+        </tr>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td><img src="@Url.Content(i.imageBook)" height="150" width="150" /></td>
+                <td style="font-size:18px;padding-top: 60px;padding-bottom:30px;"><strong >@Html.DisplayFor(model => i.nameBook)</strong> </td>
+                <td style="font-size:18px;padding-top: 60px;padding-bottom:30px;color:red;"><p>@Html.DisplayFor(model => i.price)</p> </td>
+                <td style="font-size:18px;padding-top: 60px;padding-bottom:30px;"><p>@Html.DisplayFor(model => i.SumQuantity)</p></td>
+                <td>
+                    <a style="color:green;font-size:20px; padding-top:60px;" href="/ShoppingCart/AddToCart/@i.idbook" class="btn btn-default"><i class="fa-solid fa-cart-plus"></i> Buy</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/layoutAdmin.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <link href="~/Public/css/style.css" rel="stylesheet" />
+    <link href="~/Public/css/all.min.css" rel="stylesheet" />
+    @RenderSection("head", required: false)
+</head>
+<body>
+    <section class="clearfix header bg-primary">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <img style="width: 100%; height:100%" src="~/Public/image/Logo.png"/>
+                            </li>
+                            <li class="nav-item">
+                                <a style="padding-top:50px;font-size:20px; margin-left:10px" class="nav-link active" id="animation-top5" aria-current="page" href="@Url.Action("Index","Customer")"><i class="fa-solid fa-house"></i> Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a style="padding-top:50px;font-size:20px;" href="/Book/SearchOption" id="animation-top5" class="btn btn-default"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="padding-top:50px;font-size:20px;" href="/OrderDetail/GroupByTop10" class="btn btn-default" id="animation-top5">Hot Sale</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="padding-top:50px;font-size:20px;" href="/Email/SendEmail" id="animation-top5" class="btn btn-default">Contact</a>
+                            </li>
+                        </ul>
+
+                        @*<form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>*@
+
+                        <ul class="navbar-nav " style="list-style:none">
+                            <li class="nav-item">
+                                <a href="/Shoppingcart/ShowCart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" color="white" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </a>
+                                @Html.Action("BagCart", "ShoppingCart")
+                            </li>
+                            <li class="format-hello" style="margin-left:10px">
+                                @if (Session["NameUser"] == null)
+                                {
+
+                                    <span style="font-size:16px;">Hello</span>
+                                }
+                                else
+                                {
+
+                                    <span style="font-size:16px;">Hello <text>@Session["NameUser"]</text></span>
+                                }
+                            </li>
+                            <li style="margin-left:10px" class="nav-item">
+                                <a style="font-size:25px;" href="@Url.Action("Logout","Admin")" class="btn btn-default" id="animation-top5"><i class="fa-solid fa-right-from-bracket"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="clearfix maincontent">
+        <div class="container-fluid py-3">
+            @RenderBody()
+        </div>
+    </section>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-google"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+            <!-- Section: Social media -->
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" value="Email adress" />
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p style="float:left">
+                    828 Sư Vạn Hạnh, phường 13, quận 10, thành phố Hồ Chí Minh
+                    <br />
+                </p>
+
+                <p style="float:right">
+                    <strong>SDT:</strong>  0123123121
+                    <br />
+                    <strong>Email:</strong> toilaconmeo@gmail.com
+                </p>
+            </section>
+
+            <!-- Section: Text -->
+            <!-- Section: Links -->
+
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © Nhóm 5: Đỗ Anh Duy - Hà Thị Lưu Ly - Lê Hồng Long Vũ
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    @RenderSection("footer", required: false)
+</body>
+</html>

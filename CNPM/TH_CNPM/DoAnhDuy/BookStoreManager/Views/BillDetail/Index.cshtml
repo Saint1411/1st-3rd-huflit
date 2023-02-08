@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BookStoreManager.Models.CHITTIETDATSACH>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2 style="text-align:center;color:aquamarine">Chi tiết hóa đơn</h2>
+
+    <p>
+        <a  class="btn btn-primary" href="@Url.Action("Create","BillDetail")"><i class="fa-solid fa-plus"></i> New Detail</a>
+        <a class="btn btn-danger" href="@Url.Action("Index","Bill")"><i class="fa-solid fa-check"></i> Bill List</a>    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Mã hóa đơn
+            </th>
+            <th>
+                Tên sách
+            </th>
+            <th>
+                Số lượng
+            </th>
+            <th>
+                Tổng tiền
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MADATSACH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SACH.TenSach)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Soluong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

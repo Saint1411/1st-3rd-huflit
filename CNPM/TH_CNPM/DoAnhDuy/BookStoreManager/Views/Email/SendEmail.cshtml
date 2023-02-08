@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "SendEmail";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<h2>Send Email</h2>
+
+@if (ViewBag.msg != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.msg
+    </div>
+}
+@using (Html.BeginForm())
+{
+    <div class="input-group col-md-3">
+        <input type="text" name="usermail" class="form-control" />
+        <div class="input-group-btn">
+            <button class="btn btn-success" type="submit">
+                <i class="fa-regular fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+}
+<hr />

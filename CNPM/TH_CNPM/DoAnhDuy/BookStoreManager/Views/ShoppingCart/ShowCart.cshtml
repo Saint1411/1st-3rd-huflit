@@ -1,0 +1,90 @@
+﻿@model BookStoreManager.Models.Cart
+
+@{
+    ViewBag.Title = "ShowCart";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="container-fluid">
+    <h2>Shopping Cart</h2>
+
+    <a class="btn btn-primary" href="@Url.Action("Index","Customer")" style="text-decoration-line:none;"> Tiếp tục mua hàng</a>
+    @if (Model != null)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Items)
+                {
+                    decimal total = item.quantity * (decimal)item.sach.Price.Value;
+                    <tr>
+                        <td><img src="@Url.Content(item.sach.ImageBook)" height="50" width="50" /></td>
+                        <td>@Html.DisplayFor(model => item.sach.TenSach)</td>
+                        <td>@Html.DisplayFor(model => item.sach.Price)</td>
+                        <td>
+                            @using (Html.BeginForm("UpdateCartQuantity", "ShoppingCart"))
+                            {
+                                <input type="hidden" value="@item.sach.MaSach" name="maSach" />
+                                <input type="number" value="@item.quantity" name="cartQuantity" />
+                                <input class="btn btn-primary" type="submit" value="Update" />
+                            }
+                        </td>
+                        <td>@total</td>
+                        <td>
+                            <a class="btn btn-danger" href="/ShoppingCart/RemoveItemInCart/@item.sach.MaSach"><i class="fa-solid fa-minus"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6" style="text-align:right;font-size:24px;"> Total:<span style="color:red"> @Model.TotalMoney()</span></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="4" style="float:right">
+                        @using (Html.BeginForm("CheckOut", "ShoppingCart"))
+                        {
+                            <table style="border-collapse:separate; border-spacing:5px;">
+                                <tr>
+                                    <td>Code customer</td>
+                                    <td> <input type="number" name="CodeCustomer" required /></td>
+                                </tr>
+                                <tr>
+                                    <td>Delivery address</td>
+                                    <td><input type="text" name="AddressDelivery" required /></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="CheckOut" class="btn btn-success" />
+                                        <a href="@Url.Action("RegisterUser","Admin")" class="btn btn-success">Register</a>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        }
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    }
+    else
+    {
+        @Html.Partial("EmptyCart")
+    }
+
+
+
+</div>

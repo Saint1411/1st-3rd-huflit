@@ -1,0 +1,60 @@
+﻿@model BookStoreManager.Models.DATSACH
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2 style="text-align:center; color:green">EDIT BILL</h2>
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Bill with ID:  <span style="color:red;">@Model.MaDatSach</span> </h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.MaDatSach)
+
+            <div class="form-group">
+                Ngày sửa đổi
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.NgayDat, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.NgayDat, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                Tên khách hàng
+                <div class="col-md-10">
+                    @Html.DropDownList("MaKhachHang", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.MaKhachHang, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                Địa chỉ
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DiaChiGiaoHang, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DiaChiGiaoHang, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group" style="margin-top:15px">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+    }
+    <div style="margin-top:10px">
+        <a class="btn btn-danger" href="@Url.Action("Index","Bill")"><i class="fa-solid fa-arrow-left"></i> Bill List</a>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

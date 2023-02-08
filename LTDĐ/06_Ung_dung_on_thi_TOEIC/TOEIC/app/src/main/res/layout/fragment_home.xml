@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp">
+        <TextView
+            android:id="@+id/tvToeicPratice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="TOEIC Pratice"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        //Toeic pratice
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            //Mini test
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CFEFDB"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"></ImageView>
+
+                <TextView
+                    android:id="@+id/tvMiniTest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mini Test"
+                    android:textColor="#328ABA"
+                    android:textSize="18sp"></TextView>
+            </LinearLayout>
+
+            //Full Test
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="#D8EDE7"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"></ImageView>
+
+                <TextView
+                    android:id="@+id/tvFullTest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Full Test"
+                    android:textColor="#328ABA"
+                    android:textSize="18sp"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+        //label
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Random 48 question"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Random 200 question"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"></TextView>
+        </LinearLayout>
+        //Practice Listening
+        <TextView
+            android:id="@+id/tvPraticeListening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Practice Listening"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            //Mini test
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CFEFDB"
+                android:orientation="vertical"
+                android:layout_margin="2dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mini Test"
+                    android:textColor="#328ABA"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#D8EDE7"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Full Test"
+                    android:textColor="#328ABA"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CFEFDB"
+                android:orientation="vertical"
+                android:layout_margin="2dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mini Test"
+                    android:textColor="#328ABA"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        //label
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Random 48 question"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Random 200 question"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Random 200 question"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

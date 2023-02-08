@@ -1,0 +1,21 @@
+﻿@model BookStoreManager.Models.SACH
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4 style="color:forestgreen; text-align:center">@Model.TenSach</h4>
+    <hr />
+    <img style="float:left; margin-bottom:20px; margin-left:30px;" src="@Url.Content(Model.ImageBook)" height="250" width="250" />
+    <p><strong>Tên sách: </strong> @Html.DisplayFor(model => model.TenSach) </p>
+    <p><strong>Tác giả: </strong> @Html.DisplayFor(model => model.TacGia) </p>
+    <p><strong>Còn: </strong> @Html.DisplayFor(model => model.SoLuongTon) </p>
+    <p><strong>Giá: </strong> @Html.DisplayFor(model => model.Price) </p>
+</div>
+<p>
+    <a style="color:snow;margin-top:55px;" href="/ShoppingCart/AddToCart/@Model.MaSach" class="btn btn-success"><i class="fa-solid fa-cart-plus"></i> Buy</a>
+
+</p>

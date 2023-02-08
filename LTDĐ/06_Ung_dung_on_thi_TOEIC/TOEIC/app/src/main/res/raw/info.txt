@@ -1,0 +1,6 @@
+<h1>Application information</h1>
+<h5>The application is designed for users to get acquainted with English from easy to difficult. It teaches you vocabulary related to common everyday topics such as study, science, school,... visually. Besides, you can also do exercises to help strengthen your ability to memorize the vocabulary you have learned.</h5>
+<h2>Group members</h2>
+<h6>Bui Chi Cuong - 20DH111936</h6>
+<h6>Do Anh Duy - 20DH111943</h6>
+<h6>Lam Trung Nghia - 20DH110151</h6>

@@ -1,0 +1,52 @@
+﻿@model BookStoreManager.Models.DATSACH
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>Bill with ID <span style="color:red;">@Model.MaDatSach</span></h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Ngày lập hóa đơn
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NgayDat)
+            </dd>
+
+            <dt>
+                Địa chỉ giao hàng
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DiaChiGiaoHang)
+            </dd>
+
+            <dt>
+                Tên khách hàng
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.KHACHHANG.HoTen)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <a class="btn btn-primary" href="@Url.Action("Index","Bill")"><i class="fa-solid fa-arrow-left"></i>Bill List</a>
+        <input style="margin-left:10px;" type="submit" value="Delete" class="btn btn-danger" /> 
+    </div>
+        }
+    </div>
+
+</div>

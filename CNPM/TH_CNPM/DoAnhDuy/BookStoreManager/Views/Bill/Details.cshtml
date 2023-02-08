@@ -1,0 +1,46 @@
+﻿@model BookStoreManager.Models.DATSACH
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2 style="text-align:center; color:green">Bill Details</h2>
+
+    <div>
+        <h4>Bill with ID: <span style="color:red">@Model.MaDatSach</span></h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Ngày lập
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NgayDat)
+            </dd>
+
+            <dt>
+                Địa chỉ
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DiaChiGiaoHang)
+            </dd>
+
+            <dt>
+                Họ tên
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.KHACHHANG.HoTen)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        <a class="btn btn-danger" href="@Url.Action("Index","Bill")"><i class="fa-solid fa-arrow-left"></i>Bill List</a>
+        <a class="btn btn-success" href="@Url.Action("Edit","Bill", new { id = Model.MaDatSach })"><i class="fa-solid fa-pen"></i> Edit</a>
+    </p>
+
+</div>

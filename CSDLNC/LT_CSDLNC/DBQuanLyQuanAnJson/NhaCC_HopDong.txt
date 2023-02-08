@@ -1,0 +1,318 @@
+[
+  {
+    "MANCC": "NCC01",
+    "TENNCC": "Coca Cola",
+    "LIENHE": "0123123   ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD01",
+        "MANCC": "NCC01",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      },
+      {
+        "MAHD": "HD02",
+        "MANCC": "NCC01",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC03",
+    "TENNCC": "7UP",
+    "LIENHE": "0312312371",
+    "HOPDONG": [
+      {
+        "MAHD": "HD03",
+        "MANCC": "NCC03",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC05",
+    "TENNCC": "Luxury Palace",
+    "LIENHE": "67634523  ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD04",
+        "MANCC": "NCC05",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC06",
+    "TENNCC": "Melisa Center",
+    "LIENHE": "31566576  ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD05",
+        "MANCC": "NCC06",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC12",
+    "TENNCC": "Hương Dừa",
+    "LIENHE": "098765    ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD06",
+        "MANCC": "NCC12",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC15",
+    "TENNCC": "Dìn Ký Center",
+    "LIENHE": "123123    ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD07",
+        "MANCC": "NCC15",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC13",
+    "TENNCC": "Hương Phố",
+    "LIENHE": "1234567   ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD08",
+        "MANCC": "NCC13",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC20",
+    "TENNCC": "Rose Rose",
+    "LIENHE": "234234    ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD09",
+        "MANCC": "NCC20",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC12",
+    "TENNCC": "Hương Dừa",
+    "LIENHE": "098765    ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD10",
+        "MANCC": "NCC12",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC13",
+    "TENNCC": "Hương Phố",
+    "LIENHE": "1234567   ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD11",
+        "MANCC": "NCC13",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC17",
+    "TENNCC": "Violet",
+    "LIENHE": "0987343123",
+    "HOPDONG": [
+      {
+        "MAHD": "HD12",
+        "MANCC": "NCC17",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC07",
+    "TENNCC": "Callay",
+    "LIENHE": "fsdfdf    ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD13",
+        "MANCC": "NCC07",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC09",
+    "TENNCC": "Adora Palace",
+    "LIENHE": "queqwe1   ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD14",
+        "MANCC": "NCC09",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC08",
+    "TENNCC": "Bách Việt",
+    "LIENHE": "dvcxvzxc  ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD15",
+        "MANCC": "NCC08",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC11",
+    "TENNCC": "Royal Center",
+    "LIENHE": "2153546   ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD16",
+        "MANCC": "NCC11",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC01",
+    "TENNCC": "Coca Cola",
+    "LIENHE": "0123123   ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD17",
+        "MANCC": "NCC01",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC02",
+    "TENNCC": "Pepsi",
+    "LIENHE": "0312312371",
+    "HOPDONG": [
+      {
+        "MAHD": "HD18",
+        "MANCC": "NCC02",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC03",
+    "TENNCC": "7UP",
+    "LIENHE": "0312312371",
+    "HOPDONG": [
+      {
+        "MAHD": "HD19",
+        "MANCC": "NCC03",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC05",
+    "TENNCC": "Luxury Palace",
+    "LIENHE": "67634523  ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD20",
+        "MANCC": "NCC05",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC01",
+    "TENNCC": "Coca Cola",
+    "LIENHE": "0123123   ",
+    "HOPDONG": [
+      {
+        "MAHD": "HD21",
+        "MANCC": "NCC01",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      },
+      {
+        "MAHD": "HD22",
+        "MANCC": "NCC01",
+        "CAMKET": "dâsdasdasd",
+        "DIEUKHOAN": "3 nam",
+        "NGAYKYKET": "2020-09-12",
+        "NGAYKETTHUC": "2023-09-03"
+      }
+    ]
+  }
+]

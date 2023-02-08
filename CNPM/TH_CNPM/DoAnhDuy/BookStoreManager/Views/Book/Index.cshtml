@@ -1,0 +1,130 @@
+﻿@model IEnumerable<BookStoreManager.Models.SACH>
+@*@using BookStoreManager.Models;
+    @using PagedList.Mvc;
+    @model PagedList.PagedList<SACH>*@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+
+    .MenuPage li {
+        display: inline;
+        padding: 8px 10px 8px 10px;
+        margin-left: 1px;
+        background-color: lightgray;
+        text-decoration-line: none;
+    }
+</style>
+<h2 style="margin-left:40px;text-align:center;color:darkcyan">Danh sách sách</h2>
+@using (Html.BeginForm("Index", "Book", FormMethod.Get))
+{
+
+    <div class="input-group col-md-3" style="width:900px;margin-bottom:20px;float:right;margin-right:35px">
+        <input type="text" name="category" class="form-control"  />
+        <div class="input-group-btn">
+            <button class="btn btn-success" type="submit">
+                <i class="fa-regular fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <!--<div style="margin-top:25px;margin-bottom:20px;" class="row justify-content-md-center">-->
+        @*<span style="margin-left:40px;margin-top:20px;margin-bottom:20px;">Tìm kiếm </span>*@
+        <!--<input type="text" name="category" id="search" style="width:60%;margin-bottom:20px;" class="form-control" />-->
+        @*<label>Chủ đề:</label>@Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control" })
+            <input type="submit" class="btn btn-danger" value="Tìm sách">*@
+    <!--</div>-->
+
+}
+@*@using (Html.BeginForm("Index", "Book", FormMethod.Get, new { @class = "form-inline" }))
+    {
+        <div class="form-group">
+            <label>Tên sách: </label>
+            <input type="Text" class="form-control mx-sm-3" value="@ViewBag.Keyword" name="searchString" placeholder="Nhập tên sách cần tìm">
+            <input type="button" class="btn btn-danger" value="Tìm sách">
+        </div>
+        <hr />
+    }*@
+
+<a style="margin-left:40px;" class="btn btn-dark" href="@Url.Action("Create","Book")"><i class="fa-solid fa-plus"></i> New Book</a>
+<a class="btn btn-secondary" href="@Url.Action("Index","Categories")"><i class="fa-solid fa-check"></i> Category</a>
+
+<table class="table">
+    <tr>
+        <th>
+            <p style="margin-left:27px; padding:0; margin-bottom:0;">Hình ảnh</p>
+        </th>
+        <th>
+            Tên sách
+        </th>
+        <th>
+            Tác giả
+        </th>
+        <th>
+            Số lượng tồn
+        </th>
+        <th>
+            Thể loại
+        </th>
+
+        <th>
+            Giá
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="@Url.Action("Details","Book", new { id = item.MaSach })">
+                    <img src="@Url.Content(item.ImageBook)" height="150" width="150" />
+                </a>
+            </td>
+            <td>
+                <p style="padding:60px 30px 0 0;font-size:20px;color:forestgreen;">
+                    @Html.DisplayFor(modelItem => item.TenSach)
+                </p>
+            </td>
+            <td>
+                <p style="padding:60px 30px 0 0;">
+                    @Html.DisplayFor(modelItem => item.TacGia)
+                </p>
+            </td>
+            <td>
+                <p style="padding:60px 30px 0 0;">
+                    @Html.DisplayFor(modelItem => item.SoLuongTon)
+                </p>
+            </td>
+            <td>
+                <p style="padding:60px 30px 0 0;">
+                    @Html.DisplayFor(modelItem => item.THELOAI.NameCate)
+                </p>
+            </td>
+
+            <td>
+                <p style="padding:60px 30px 0 0;">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </p>
+            </td>
+            <td>
+                <a style="margin:60px 0 0 0;" class="btn btn-success" href="@Url.Action("Details","Book", new { id = item.MaSach })"><i class="fa-solid fa-circle-info"></i></a>
+                <a style="margin:60px 0 0 0;" class="btn btn-primary" href="@Url.Action("Edit","Book", new { id = item.MaSach })"><i class="fa-solid fa-pen"></i></a>
+                <a style="margin:60px 0 0 0;" class="btn btn-danger" href="@Url.Action("Delete","Book", new { id = item.MaSach })"><i class="fa-solid fa-trash"></i></a>
+            </td>
+        </tr>
+    }
+
+</table>
+@*<div class="container">
+        <div id="div-ds" style="float:left;">
+            Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+        </div>
+        <div class="MenuPage" style="float:right;text-decoration-line:none;">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+        </div>
+    </div>*@
+

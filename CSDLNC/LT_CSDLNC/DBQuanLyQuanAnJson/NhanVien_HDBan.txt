@@ -1,0 +1,356 @@
+[
+  {
+    "MANV": "NV01",
+    "HOTEN": "Do Anh Duy",
+    "NAMSINH": "2001-11-14",
+    "SDT": "012310121 ",
+    "DIACHI": "22 Tấn Hải",
+    "EMAIL": "Toilaconmeo@gmail.com",
+    "CCCD": "123123121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB01",
+        "Ngay": "2022-01-02",
+        "MAKH": "KH01",
+        "MANV": "NV01"
+      }
+    ]
+  },
+  {
+    "MANV": "NV02",
+    "HOTEN": "Bui Chi Cuong",
+    "NAMSINH": "2002-10-12",
+    "SDT": "0123125144",
+    "DIACHI": "11 Sư Vạn Hạnh",
+    "EMAIL": "Conmeomapmap@gmail.com",
+    "CCCD": "41231231",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB02",
+        "Ngay": "2022-06-01",
+        "MAKH": "KH02",
+        "MANV": "NV02"
+      },
+      {
+        "MAHDBAN": "HDB03",
+        "Ngay": "2022-08-08",
+        "MAKH": "KH03",
+        "MANV": "NV02"
+      }
+    ]
+  },
+  {
+    "MANV": "NV03",
+    "HOTEN": "Lam Trung Nghia",
+    "NAMSINH": "2002-01-03",
+    "SDT": "089765567 ",
+    "DIACHI": "33 Lý Chính Thắng",
+    "EMAIL": "Conmeobietyeu@gmail.com",
+    "CCCD": "9871412",
+    "TRANGTHAI": false,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB04",
+        "Ngay": "2021-09-01",
+        "MAKH": "KH04",
+        "MANV": "NV03"
+      }
+    ]
+  },
+  {
+    "MANV": "NV02",
+    "HOTEN": "Bui Chi Cuong",
+    "NAMSINH": "2002-10-12",
+    "SDT": "0123125144",
+    "DIACHI": "11 Sư Vạn Hạnh",
+    "EMAIL": "Conmeomapmap@gmail.com",
+    "CCCD": "41231231",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB05",
+        "Ngay": "2022-12-09",
+        "MAKH": "KH02",
+        "MANV": "NV02"
+      },
+      {
+        "MAHDBAN": "HDB06",
+        "Ngay": "2022-10-17",
+        "MAKH": "KH03",
+        "MANV": "NV02"
+      },
+      {
+        "MAHDBAN": "HDB07",
+        "Ngay": "2022-05-27",
+        "MAKH": "KH03",
+        "MANV": "NV02"
+      },
+      {
+        "MAHDBAN": "HDB09",
+        "Ngay": "2022-03-03",
+        "MAKH": "KH04",
+        "MANV": "NV02"
+      }
+    ]
+  },
+  {
+    "MANV": "NV01",
+    "HOTEN": "Do Anh Duy",
+    "NAMSINH": "2001-11-14",
+    "SDT": "012310121 ",
+    "DIACHI": "22 Tấn Hải",
+    "EMAIL": "Toilaconmeo@gmail.com",
+    "CCCD": "123123121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB10",
+        "Ngay": "2022-12-12",
+        "MAKH": "KH05",
+        "MANV": "NV01"
+      }
+    ]
+  },
+  {
+    "MANV": "NV03",
+    "HOTEN": "Lam Trung Nghia",
+    "NAMSINH": "2002-01-03",
+    "SDT": "089765567 ",
+    "DIACHI": "33 Lý Chính Thắng",
+    "EMAIL": "Conmeobietyeu@gmail.com",
+    "CCCD": "9871412",
+    "TRANGTHAI": false,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB11",
+        "Ngay": "2022-11-11",
+        "MAKH": "KH01",
+        "MANV": "NV03"
+      }
+    ]
+  },
+  {
+    "MANV": "NV04",
+    "HOTEN": "Tran Anh Khoa",
+    "NAMSINH": "2002-07-11",
+    "SDT": "0456763123",
+    "DIACHI": "44 Điện Biên Phủ",
+    "EMAIL": "Conmeongungok@gmail.com",
+    "CCCD": "668975121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB12",
+        "Ngay": "2022-10-14",
+        "MAKH": "KH03",
+        "MANV": "NV04"
+      }
+    ]
+  },
+  {
+    "MANV": "NV05",
+    "HOTEN": "Nguyen Anh Tuan",
+    "NAMSINH": "2002-12-12",
+    "SDT": "0344412121",
+    "DIACHI": "55 Lý Thường Kiệt",
+    "EMAIL": "Conmeoluoibieng@gmail.com",
+    "CCCD": "09123134",
+    "TRANGTHAI": false,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB13",
+        "Ngay": "2022-08-04",
+        "MAKH": "KH02",
+        "MANV": "NV05"
+      }
+    ]
+  },
+  {
+    "MANV": "NV01",
+    "HOTEN": "Do Anh Duy",
+    "NAMSINH": "2001-11-14",
+    "SDT": "012310121 ",
+    "DIACHI": "22 Tấn Hải",
+    "EMAIL": "Toilaconmeo@gmail.com",
+    "CCCD": "123123121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB14",
+        "Ngay": "2022-01-09",
+        "MAKH": "KH05",
+        "MANV": "NV01"
+      }
+    ]
+  },
+  {
+    "MANV": "NV04",
+    "HOTEN": "Tran Anh Khoa",
+    "NAMSINH": "2002-07-11",
+    "SDT": "0456763123",
+    "DIACHI": "44 Điện Biên Phủ",
+    "EMAIL": "Conmeongungok@gmail.com",
+    "CCCD": "668975121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB15",
+        "Ngay": "2022-02-03",
+        "MAKH": "KH04",
+        "MANV": "NV04"
+      }
+    ]
+  },
+  {
+    "MANV": "NV01",
+    "HOTEN": "Do Anh Duy",
+    "NAMSINH": "2001-11-14",
+    "SDT": "012310121 ",
+    "DIACHI": "22 Tấn Hải",
+    "EMAIL": "Toilaconmeo@gmail.com",
+    "CCCD": "123123121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB16",
+        "Ngay": "2022-04-19",
+        "MAKH": "KH05",
+        "MANV": "NV01"
+      },
+      {
+        "MAHDBAN": "HDB17",
+        "Ngay": "2022-11-29",
+        "MAKH": "KH03",
+        "MANV": "NV01"
+      }
+    ]
+  },
+  {
+    "MANV": "NV02",
+    "HOTEN": "Bui Chi Cuong",
+    "NAMSINH": "2002-10-12",
+    "SDT": "0123125144",
+    "DIACHI": "11 Sư Vạn Hạnh",
+    "EMAIL": "Conmeomapmap@gmail.com",
+    "CCCD": "41231231",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB18",
+        "Ngay": "2022-10-19",
+        "MAKH": "KH02",
+        "MANV": "NV02"
+      }
+    ]
+  },
+  {
+    "MANV": "NV03",
+    "HOTEN": "Lam Trung Nghia",
+    "NAMSINH": "2002-01-03",
+    "SDT": "089765567 ",
+    "DIACHI": "33 Lý Chính Thắng",
+    "EMAIL": "Conmeobietyeu@gmail.com",
+    "CCCD": "9871412",
+    "TRANGTHAI": false,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB19",
+        "Ngay": "2022-10-10",
+        "MAKH": "KH01",
+        "MANV": "NV03"
+      }
+    ]
+  },
+  {
+    "MANV": "NV04",
+    "HOTEN": "Tran Anh Khoa",
+    "NAMSINH": "2002-07-11",
+    "SDT": "0456763123",
+    "DIACHI": "44 Điện Biên Phủ",
+    "EMAIL": "Conmeongungok@gmail.com",
+    "CCCD": "668975121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB20",
+        "Ngay": "2022-02-08",
+        "MAKH": "KH02",
+        "MANV": "NV04"
+      }
+    ]
+  },
+  {
+    "MANV": "NV03",
+    "HOTEN": "Lam Trung Nghia",
+    "NAMSINH": "2002-01-03",
+    "SDT": "089765567 ",
+    "DIACHI": "33 Lý Chính Thắng",
+    "EMAIL": "Conmeobietyeu@gmail.com",
+    "CCCD": "9871412",
+    "TRANGTHAI": false,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB21",
+        "Ngay": "2022-12-04",
+        "MAKH": "KH03",
+        "MANV": "NV03"
+      }
+    ]
+  },
+  {
+    "MANV": "NV05",
+    "HOTEN": "Nguyen Anh Tuan",
+    "NAMSINH": "2002-12-12",
+    "SDT": "0344412121",
+    "DIACHI": "55 Lý Thường Kiệt",
+    "EMAIL": "Conmeoluoibieng@gmail.com",
+    "CCCD": "09123134",
+    "TRANGTHAI": false,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB22",
+        "Ngay": "2022-01-09",
+        "MAKH": "KH05",
+        "MANV": "NV05"
+      }
+    ]
+  },
+  {
+    "MANV": "NV03",
+    "HOTEN": "Lam Trung Nghia",
+    "NAMSINH": "2002-01-03",
+    "SDT": "089765567 ",
+    "DIACHI": "33 Lý Chính Thắng",
+    "EMAIL": "Conmeobietyeu@gmail.com",
+    "CCCD": "9871412",
+    "TRANGTHAI": false,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB23",
+        "Ngay": "2022-11-11",
+        "MAKH": "KH04",
+        "MANV": "NV03"
+      }
+    ]
+  },
+  {
+    "MANV": "NV04",
+    "HOTEN": "Tran Anh Khoa",
+    "NAMSINH": "2002-07-11",
+    "SDT": "0456763123",
+    "DIACHI": "44 Điện Biên Phủ",
+    "EMAIL": "Conmeongungok@gmail.com",
+    "CCCD": "668975121",
+    "TRANGTHAI": true,
+    "HOADONBAN": [
+      {
+        "MAHDBAN": "HDB24",
+        "Ngay": "2022-12-24",
+        "MAKH": "KH05",
+        "MANV": "NV04"
+      }
+    ]
+  }
+]

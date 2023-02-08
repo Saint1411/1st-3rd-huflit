@@ -1,0 +1,317 @@
+[
+  {
+    "MAHDNHAP": "HDN02",
+    "NGAYNHAP": "2022-02-18",
+    "MANV": "NV05",
+    "MANCC": "NCC01",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD01",
+        "MAHDNHAP": "HDN02",
+        "MANL": "NL01",
+        "SLNHAP": 3,
+        "THANHTIEN": 170
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN01",
+    "NGAYNHAP": "2022-02-18",
+    "MANV": "NV05",
+    "MANCC": "NCC01",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD02",
+        "MAHDNHAP": "HDN01",
+        "MANL": "NL01",
+        "SLNHAP": 4,
+        "THANHTIEN": 270
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN03",
+    "NGAYNHAP": "2022-03-18",
+    "MANV": "NV03",
+    "MANCC": "NCC02",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD03",
+        "MAHDNHAP": "HDN03",
+        "MANL": "NL02",
+        "SLNHAP": 2,
+        "THANHTIEN": 100
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN04",
+    "NGAYNHAP": "2022-04-18",
+    "MANV": "NV04",
+    "MANCC": "NCC03",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD04",
+        "MAHDNHAP": "HDN04",
+        "MANL": "NL04",
+        "SLNHAP": 12,
+        "THANHTIEN": 220
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN12",
+    "NGAYNHAP": "2022-12-18",
+    "MANV": "NV04",
+    "MANCC": "NCC12",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD05",
+        "MAHDNHAP": "HDN12",
+        "MANL": "NL11",
+        "SLNHAP": 4,
+        "THANHTIEN": 230
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN11",
+    "NGAYNHAP": "2022-11-18",
+    "MANV": "NV03",
+    "MANCC": "NCC11",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD06",
+        "MAHDNHAP": "HDN11",
+        "MANL": "NL20",
+        "SLNHAP": 5,
+        "THANHTIEN": 310
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN02",
+    "NGAYNHAP": "2022-02-18",
+    "MANV": "NV05",
+    "MANCC": "NCC01",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD07",
+        "MAHDNHAP": "HDN02",
+        "MANL": "NL23",
+        "SLNHAP": 11,
+        "THANHTIEN": 40
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN12",
+    "NGAYNHAP": "2022-12-18",
+    "MANV": "NV04",
+    "MANCC": "NCC12",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD08",
+        "MAHDNHAP": "HDN12",
+        "MANL": "NL11",
+        "SLNHAP": 14,
+        "THANHTIEN": 670
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN11",
+    "NGAYNHAP": "2022-11-18",
+    "MANV": "NV03",
+    "MANCC": "NCC11",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD09",
+        "MAHDNHAP": "HDN11",
+        "MANL": "NL22",
+        "SLNHAP": 4,
+        "THANHTIEN": 760
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN10",
+    "NGAYNHAP": "2022-10-18",
+    "MANV": "NV05",
+    "MANCC": "NCC09",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD10",
+        "MAHDNHAP": "HDN10",
+        "MANL": "NL21",
+        "SLNHAP": 5,
+        "THANHTIEN": 220
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN09",
+    "NGAYNHAP": "2022-09-18",
+    "MANV": "NV02",
+    "MANCC": "NCC08",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD11",
+        "MAHDNHAP": "HDN09",
+        "MANL": "NL04",
+        "SLNHAP": 10,
+        "THANHTIEN": 330
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN04",
+    "NGAYNHAP": "2022-04-18",
+    "MANV": "NV04",
+    "MANCC": "NCC03",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD12",
+        "MAHDNHAP": "HDN04",
+        "MANL": "NL21",
+        "SLNHAP": 10,
+        "THANHTIEN": 440
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN06",
+    "NGAYNHAP": "2022-06-18",
+    "MANV": "NV01",
+    "MANCC": "NCC05",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD13",
+        "MAHDNHAP": "HDN06",
+        "MANL": "NL05",
+        "SLNHAP": 17,
+        "THANHTIEN": 120
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN08",
+    "NGAYNHAP": "2022-08-18",
+    "MANV": "NV01",
+    "MANCC": "NCC07",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD14",
+        "MAHDNHAP": "HDN08",
+        "MANL": "NL07",
+        "SLNHAP": 22,
+        "THANHTIEN": 200
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN09",
+    "NGAYNHAP": "2022-09-18",
+    "MANV": "NV02",
+    "MANCC": "NCC08",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD15",
+        "MAHDNHAP": "HDN09",
+        "MANL": "NL02",
+        "SLNHAP": 31,
+        "THANHTIEN": 70
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN01",
+    "NGAYNHAP": "2022-02-18",
+    "MANV": "NV05",
+    "MANCC": "NCC01",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD16",
+        "MAHDNHAP": "HDN01",
+        "MANL": "NL08",
+        "SLNHAP": 5,
+        "THANHTIEN": 80
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN04",
+    "NGAYNHAP": "2022-04-18",
+    "MANV": "NV04",
+    "MANCC": "NCC03",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD17",
+        "MAHDNHAP": "HDN04",
+        "MANL": "NL19",
+        "SLNHAP": 9,
+        "THANHTIEN": 90
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN09",
+    "NGAYNHAP": "2022-09-18",
+    "MANV": "NV02",
+    "MANCC": "NCC08",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD18",
+        "MAHDNHAP": "HDN09",
+        "MANL": "NL17",
+        "SLNHAP": 13,
+        "THANHTIEN": 100
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN20",
+    "NGAYNHAP": "2022-06-30",
+    "MANV": "NV03",
+    "MANCC": "NCC16",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD19",
+        "MAHDNHAP": "HDN20",
+        "MANL": "NL13",
+        "SLNHAP": 9,
+        "THANHTIEN": 230
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN19",
+    "NGAYNHAP": "2022-01-28",
+    "MANV": "NV02",
+    "MANCC": "NCC18",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD20",
+        "MAHDNHAP": "HDN19",
+        "MANL": "NL12",
+        "SLNHAP": 2,
+        "THANHTIEN": 65
+      }
+    ]
+  },
+  {
+    "MAHDNHAP": "HDN02",
+    "NGAYNHAP": "2022-02-18",
+    "MANV": "NV05",
+    "MANCC": "NCC01",
+    "CHITIETHOADONNHAP": [
+      {
+        "MACTHDNHAP": "CTHD21",
+        "MAHDNHAP": "HDN02",
+        "MANL": "NL10",
+        "SLNHAP": 3,
+        "THANHTIEN": 220
+      }
+    ]
+  }
+]

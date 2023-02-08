@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    //one
+    <item android:title="Vocabulary">
+        <menu>
+            <item
+                android:id="@+id/mnuVocab"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Vocabulary" />
+            <item
+                android:id="@+id/mnuFavorite"
+                android:icon="@drawable/ic_baseline_favorite_24"
+                android:title="Favorite" />
+            <item
+                android:id="@+id/mnuHistory"
+                android:icon="@drawable/ic_baseline_history_24"
+                android:title="History" />
+        </menu>
+    </item>
+    //second
+    <item android:title="Practices">
+        <menu>
+            <item
+                android:id="@+id/mnuMiniTest"
+                android:icon="@drawable/ic_baseline_import_contacts_24"
+                android:title="Mini Test"></item>
+        </menu>
+    </item>
+    //third
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/mnuSetting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings"></item>
+            <item
+                android:id="@+id/mnuInfo"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="About us" />
+        </menu>
+    </item>
+</menu>

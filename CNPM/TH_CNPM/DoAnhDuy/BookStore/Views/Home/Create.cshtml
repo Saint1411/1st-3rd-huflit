@@ -1,0 +1,49 @@
+﻿@model BookStore.Models.SACH
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+<h2>THÊM MỚI SÁCH</h2>
+@using (Html.BeginForm("Create", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <table class="table-bordered">
+        <tr>
+            <td>@Html.LabelFor(model => model.TenSach)</td>
+            <td>@Html.EditorFor(model => model.TenSach)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.TacGia)</td>
+            <td>@Html.EditorFor(model => model.TacGia)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.Price)</td>
+            <td>@Html.EditorFor(model => model.Price)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.SoLuongTon)</td>
+            <td>@Html.EditorFor(model => model.SoLuongTon)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.Catelogy)</td>
+            <td>
+                @{Html.RenderAction("SelectCate", "Home");
+                }
+            </td>
+        <tr>
+            <td>@Html.LabelFor(model => model.ImageBook)</td>
+            <td>
+                <img src="@Url.Content(Model.ImageBook)" height="150" width="150" id="previewImg" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="file" name="UploadImage" onchange="ChangeImage(this, document.getElementById('previewImg'))" />
+                <input type="submit" name="Create" />
+            </td>
+        </tr>
+    </table>
+}
+@Html.ActionLink("Book list", "Index")
+

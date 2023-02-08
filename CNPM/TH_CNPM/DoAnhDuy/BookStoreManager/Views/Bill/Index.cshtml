@@ -1,0 +1,58 @@
+﻿@model IEnumerable<BookStoreManager.Models.DATSACH>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="color:red; text-align:center;">BILL LIST</h2>
+
+<div class="container">
+    <p>
+        <a  class="btn btn-primary" href="@Url.Action("Create","Bill")"><i class="fa-solid fa-plus"></i> New Bill</a>
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Ngày lập
+            </th>
+            <th>
+                Mã hóa đơn
+            </th>
+            <th>
+                Khách hàng
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayDat)
+                </td>
+                <td>
+                    <a href="@Url.Action("Index","BillDetail")">
+                        @Html.DisplayFor(modelItem => item.MaDatSach)
+                    </a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KHACHHANG.HoTen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChiGiaoHang)
+                </td>
+                <td>
+                    <a class="btn btn-success" href="@Url.Action("Details","Bill", new { id = item.MaDatSach })"><i class="fa-solid fa-circle-info"></i></a>
+                    <a class="btn btn-primary" href="@Url.Action("Edit","Bill", new { id = item.MaDatSach })"><i class="fa-solid fa-pen"></i></a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete","Bill", new { id = item.MaDatSach })"><i class="fa-solid fa-trash"></i></a>
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>

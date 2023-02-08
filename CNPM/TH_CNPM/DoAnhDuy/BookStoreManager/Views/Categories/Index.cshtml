@@ -1,0 +1,48 @@
+﻿@model IEnumerable<BookStoreManager.Models.THELOAI>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="margin:auto; max-width:80%;">
+    <h2 style="text-align:center">Quản lý loại sách</h2>
+    <a style="float:inherit" class="btn btn-dark" href="@Url.Action("Create","Categories")"><i class="fa-solid fa-plus"></i> New Cate</a>
+</div>
+
+
+<table class="table" style="margin:auto; max-width:80%;">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            Mã loại
+        </th>
+        <th>
+            Tên loại
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDCate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameCate)
+            </td>
+            <td>
+                <a style="float:right; margin-right:5px;" class="btn btn-success" href="@Url.Action("Details","Categories", new { id = item.IDCate })"><i class="fa-solid fa-circle-info"></i></a>
+                <a style="float:right; margin-right:5px;" class="btn btn-primary" href="@Url.Action("Edit","Categories", new { id = item.IDCate })"><i class="fa-solid fa-pen"></i></a>
+                <a style="float:right;margin-right:5px;" class="btn btn-danger" href="@Url.Action("Delete","Categories", new { id = item.IDCate })"><i class="fa-solid fa-trash"></i></a>
+            </td>
+        </tr>
+    }
+
+</table>

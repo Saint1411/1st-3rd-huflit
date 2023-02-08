@@ -1,0 +1,32 @@
+[
+  {
+    "MAGH": "GH01",
+    "MAHDBAN": "HDB01",
+    "CHITIETGIAOHANG": [
+      {
+        "MACTGH": "CTGH01",
+        "MAGH": "GH01",
+        "NGAYVANCHUYEN": "2022-08-22",
+        "NGAYNHANHANG": "2020-12-14",
+        "TRANGTHAi": "Đang giao",
+        "CHIPHIGH": 20
+      },
+      {
+        "MACTGH": "CTGH02",
+        "MAGH": "GH01",
+        "NGAYVANCHUYEN": "2022-09-12",
+        "NGAYNHANHANG": "2023-10-18",
+        "TRANGTHAi": "Đã giao hàng",
+        "CHIPHIGH": 12
+      },
+      {
+        "MACTGH": "CTGH03",
+        "MAGH": "GH01",
+        "NGAYVANCHUYEN": "2022-03-02",
+        "NGAYNHANHANG": "2022-12-16",
+        "TRANGTHAi": "Đang giao",
+        "CHIPHIGH": 10
+      }
+    ]
+  }
+]

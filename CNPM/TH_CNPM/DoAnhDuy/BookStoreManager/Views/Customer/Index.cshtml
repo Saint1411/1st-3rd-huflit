@@ -1,0 +1,101 @@
+﻿@*@model IEnumerable<BookStoreManager.Models.SACH>*@
+@using BookStoreManager.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<SACH>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<link href="~/Public/css/all.min.css" rel="stylesheet" />
+<style>
+
+    .MenuPage li {
+        display: inline;
+        padding: 8px 10px 8px 10px;
+        margin-left: 1px;
+        background-color: lightgray;
+    }
+</style>
+<h2 style="text-align:center;color:aquamarine">Welcome To Book Store</h2>
+<!-- Đoạn cần thêm -->
+@*@using (Html.BeginForm("Index", "Customer", FormMethod.Get, new { @class = "form-inline" }))
+{
+    <div class="form-group">
+        <label>Chủ đề:</label>@Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control" }) 
+        <input type="submit" class="btn btn-danger" value="Tìm sách">
+    </div>
+    <hr />
+}*@
+<!-- Kết thúc -->
+<table class="table">
+    <tr>
+        <th>
+            <p style="margin-left:28px; margin-bottom:0%; padding:0%">Hình ảnh</p>
+        </th>
+        <th>
+            Tên sách
+        </th>
+        <th>
+            Tác giả
+        </th>
+        <th>
+            Giá
+        </th>
+
+        <th>
+            Thể loại
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="@Url.Action("Details","Customer", new { id = item.MaSach })">
+                    <img src="@Url.Content(item.ImageBook)" height="150" width="150" />
+                </a>
+            </td>
+            <td>
+                <p style="padding:60px 30px 0 0;font-size:20px;color:forestgreen">
+                    @Html.DisplayFor(modelItem => item.TenSach)
+                </p>
+            </td>
+            <td>
+                <p style="padding:60px 30px 0 0;">
+                    @Html.DisplayFor(modelItem => item.TacGia)
+                </p>
+            </td>
+            <td>
+                <p style="padding:60px 30px 0 0;">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </p>
+            </td>
+
+            <td>
+                <p style="padding:60px 30px 0 0;">
+                    @Html.DisplayFor(modelItem => item.THELOAI.NameCate)
+                </p>
+            </td>
+            <td>
+                <a style="color:snow;margin-top:60px;" href="/ShoppingCart/AddToCart/@item.MaSach" class="btn btn-success"><i class="fa-solid fa-cart-plus"></i> Buy</a>
+            </td>
+
+        </tr>
+    }
+
+</table>
+@*@Html.Hidden("searchString", (object)ViewBag.Keyword)*@
+<div class="container">
+    <div>
+        Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+    </div>
+    <div class="MenuPage" style="float:right;">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </div>
+</div>
+
+
+

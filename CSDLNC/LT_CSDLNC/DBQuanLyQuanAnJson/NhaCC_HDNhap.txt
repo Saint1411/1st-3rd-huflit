@@ -1,0 +1,255 @@
+[
+  {
+    "MANCC": "NCC01",
+    "TENNCC": "Coca Cola",
+    "LIENHE": "0123123   ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN01",
+        "NGAYNHAP": "2022-02-18",
+        "MANV": "NV05",
+        "MANCC": "NCC01"
+      },
+      {
+        "MAHDNHAP": "HDN02",
+        "NGAYNHAP": "2022-02-18",
+        "MANV": "NV05",
+        "MANCC": "NCC01"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC02",
+    "TENNCC": "Pepsi",
+    "LIENHE": "0312312371",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN03",
+        "NGAYNHAP": "2022-03-18",
+        "MANV": "NV03",
+        "MANCC": "NCC02"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC03",
+    "TENNCC": "7UP",
+    "LIENHE": "0312312371",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN04",
+        "NGAYNHAP": "2022-04-18",
+        "MANV": "NV04",
+        "MANCC": "NCC03"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC04",
+    "TENNCC": "Grand Place",
+    "LIENHE": "13125141  ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN05",
+        "NGAYNHAP": "2022-05-18",
+        "MANV": "NV02",
+        "MANCC": "NCC04"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC05",
+    "TENNCC": "Luxury Palace",
+    "LIENHE": "67634523  ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN06",
+        "NGAYNHAP": "2022-06-18",
+        "MANV": "NV01",
+        "MANCC": "NCC05"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC06",
+    "TENNCC": "Melisa Center",
+    "LIENHE": "31566576  ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN07",
+        "NGAYNHAP": "2022-07-18",
+        "MANV": "NV04",
+        "MANCC": "NCC06"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC07",
+    "TENNCC": "Callay",
+    "LIENHE": "fsdfdf    ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN08",
+        "NGAYNHAP": "2022-08-18",
+        "MANV": "NV01",
+        "MANCC": "NCC07"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC08",
+    "TENNCC": "Bách Việt",
+    "LIENHE": "dvcxvzxc  ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN09",
+        "NGAYNHAP": "2022-09-18",
+        "MANV": "NV02",
+        "MANCC": "NCC08"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC09",
+    "TENNCC": "Adora Palace",
+    "LIENHE": "queqwe1   ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN10",
+        "NGAYNHAP": "2022-10-18",
+        "MANV": "NV05",
+        "MANCC": "NCC09"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC11",
+    "TENNCC": "Royal Center",
+    "LIENHE": "2153546   ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN11",
+        "NGAYNHAP": "2022-11-18",
+        "MANV": "NV03",
+        "MANCC": "NCC11"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC12",
+    "TENNCC": "Hương Dừa",
+    "LIENHE": "098765    ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN12",
+        "NGAYNHAP": "2022-12-18",
+        "MANV": "NV04",
+        "MANCC": "NCC12"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC13",
+    "TENNCC": "Hương Phố",
+    "LIENHE": "1234567   ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN13",
+        "NGAYNHAP": "2022-04-14",
+        "MANV": "NV03",
+        "MANCC": "NCC13"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC14",
+    "TENNCC": "Sài Gòn Center",
+    "LIENHE": "dfstrwerw ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN14",
+        "NGAYNHAP": "2022-02-13",
+        "MANV": "NV03",
+        "MANCC": "NCC14"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC15",
+    "TENNCC": "Dìn Ký Center",
+    "LIENHE": "123123    ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN15",
+        "NGAYNHAP": "2022-02-22",
+        "MANV": "NV02",
+        "MANCC": "NCC15"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC20",
+    "TENNCC": "Rose Rose",
+    "LIENHE": "234234    ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN16",
+        "NGAYNHAP": "2022-12-25",
+        "MANV": "NV01",
+        "MANCC": "NCC20"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC19",
+    "TENNCC": "Elipse",
+    "LIENHE": "3423423   ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN17",
+        "NGAYNHAP": "2022-11-09",
+        "MANV": "NV01",
+        "MANCC": "NCC19"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC11",
+    "TENNCC": "Royal Center",
+    "LIENHE": "2153546   ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN18",
+        "NGAYNHAP": "2022-10-08",
+        "MANV": "NV02",
+        "MANCC": "NCC11"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC18",
+    "TENNCC": "Tulip",
+    "LIENHE": "1234568976",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN19",
+        "NGAYNHAP": "2022-01-28",
+        "MANV": "NV02",
+        "MANCC": "NCC18"
+      }
+    ]
+  },
+  {
+    "MANCC": "NCC16",
+    "TENNCC": "Calla",
+    "LIENHE": "5364785   ",
+    "HOADONNHAP": [
+      {
+        "MAHDNHAP": "HDN20",
+        "NGAYNHAP": "2022-06-30",
+        "MANV": "NV03",
+        "MANCC": "NCC16"
+      }
+    ]
+  }
+]

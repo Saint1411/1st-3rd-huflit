@@ -1,0 +1,22 @@
+﻿@model BookStoreManager.Models.SACH
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4 style="color:forestgreen; text-align:center">@Model.TenSach</h4>
+    <hr />
+    <img style="float:left; margin-bottom:20px; margin-left:30px;" src="@Url.Content(Model.ImageBook)" height="250" width="250" />
+    <p><strong>Tên sách: </strong> @Html.DisplayFor(model => model.TenSach) </p>
+    <p><strong>Tác giả: </strong> @Html.DisplayFor(model => model.TacGia) </p>
+    <p><strong>Số lượng tồn: </strong> @Html.DisplayFor(model => model.SoLuongTon) </p>
+    <p><strong>Giá: </strong> @Html.DisplayFor(model => model.Price) </p>
+</div>
+<p>
+    <a class="btn btn-danger" href="@Url.Action("Index","Book")"><i class="fa-solid fa-arrow-left"></i> Book Listk</a>
+    <a class="btn btn-success" href="@Url.Action("Edit","Book", new { id = Model.MaSach })"><i class="fa-solid fa-pen"></i> Edit</a>
+</p>

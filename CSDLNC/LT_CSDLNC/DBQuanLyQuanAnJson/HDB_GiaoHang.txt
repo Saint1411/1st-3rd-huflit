@@ -1,0 +1,14 @@
+[
+  {
+    "MAHDBAN": "HDB01",
+    "Ngay": "2022-01-02",
+    "MAKH": "KH01",
+    "MANV": "NV01",
+    "GIAOHANG": [
+      {
+        "MAGH": "GH01",
+        "MAHDBAN": "HDB01"
+      }
+    ]
+  }
+]

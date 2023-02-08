@@ -1,0 +1,23 @@
+﻿<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/css/layoutAdmin.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.bundle.min.js"></script>
+<link href="~/Public/css/all.min.css" rel="stylesheet" />
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CheckOutSuccess</title>
+</head>
+<body style="text-align:center;background-image:url(/Public/image/flatlay-of-book-with-coffee-and-phone.jpg)">
+    <div style="width:800px;height:400px;border:groove;;max-width:80%;margin:80px auto auto auto; background-color:#97DECE">
+        <h2 style="margin-top:60px;color:red">Check out successfully</h2>
+        <h4 style="margin-bottom:40px;margin-top:30px;">Oders of you had sent to the shop. You will receive goods in 2 -3 days. Thanks...</h4>
+        <a class="btn btn-success" href="@Url.Action("Index","Customer")" style="text-decoration-line:none;"><i class="fa-solid fa-cart-plus"></i> Tiếp tục mua hàng</a>
+    </div>
+</body>
+</html>

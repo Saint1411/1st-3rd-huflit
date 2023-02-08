@@ -1,0 +1,3 @@
+﻿@model BookStore.Models.THELOAI
+    @Html.DropDownListFor(model => model.IDCate,
+    new SelectList(Model.ListCategory.OrderBy(model => model.NameCate), "IDCate", "NameCate"), "--Select cate---")

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BookStoreModelStoreContainer" CdmEntityContainer="BookStoreEntities1">
+    <EntitySetMapping Name="AdminUsers">
+      <EntityTypeMapping TypeName="BookStoreModel.AdminUser">
+        <MappingFragment StoreEntitySet="AdminUser">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameUser" ColumnName="NameUser" />
+          <ScalarProperty Name="RoleUser" ColumnName="RoleUser" />
+          <ScalarProperty Name="PasswordUser" ColumnName="PasswordUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BAOCAOCONGNOes">
+      <EntityTypeMapping TypeName="BookStoreModel.BAOCAOCONGNO">
+        <MappingFragment StoreEntitySet="BAOCAOCONGNO">
+          <ScalarProperty Name="MaCongNo" ColumnName="MaCongNo" />
+          <ScalarProperty Name="Thang" ColumnName="Thang" />
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+          <ScalarProperty Name="NoDau" ColumnName="NoDau" />
+          <ScalarProperty Name="NoCuoi" ColumnName="NoCuoi" />
+          <ScalarProperty Name="NoPhatSinh" ColumnName="NoPhatSinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BAOCAOTONKHOes">
+      <EntityTypeMapping TypeName="BookStoreModel.BAOCAOTONKHO">
+        <MappingFragment StoreEntitySet="BAOCAOTONKHO">
+          <ScalarProperty Name="MaBaoCao" ColumnName="MaBaoCao" />
+          <ScalarProperty Name="Thang" ColumnName="Thang" />
+          <ScalarProperty Name="MaSach" ColumnName="MaSach" />
+          <ScalarProperty Name="SoLuongTonDau" ColumnName="SoLuongTonDau" />
+          <ScalarProperty Name="SoLuongTonPhatSinh" ColumnName="SoLuongTonPhatSinh" />
+          <ScalarProperty Name="SoLuongTonCuoi" ColumnName="SoLuongTonCuoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETHOADONs">
+      <EntityTypeMapping TypeName="BookStoreModel.CHITIETHOADON">
+        <MappingFragment StoreEntitySet="CHITIETHOADON">
+          <ScalarProperty Name="MaChiTietHoDon" ColumnName="MaChiTietHoDon" />
+          <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
+          <ScalarProperty Name="SoLuongBan" ColumnName="SoLuongBan" />
+          <ScalarProperty Name="MaSach" ColumnName="MaSach" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETPHIEUNHAPs">
+      <EntityTypeMapping TypeName="BookStoreModel.CHITIETPHIEUNHAP">
+        <MappingFragment StoreEntitySet="CHITIETPHIEUNHAP">
+          <ScalarProperty Name="MaChiTietPhiepNhap" ColumnName="MaChiTietPhiepNhap" />
+          <ScalarProperty Name="MaPhieuNhap" ColumnName="MaPhieuNhap" />
+          <ScalarProperty Name="SoLuongNhap" ColumnName="SoLuongNhap" />
+          <ScalarProperty Name="MaSach" ColumnName="MaSach" />
+          <ScalarProperty Name="DonGiaNhap" ColumnName="DonGiaNhap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITTIETDATSACHes">
+      <EntityTypeMapping TypeName="BookStoreModel.CHITTIETDATSACH">
+        <MappingFragment StoreEntitySet="CHITTIETDATSACH">
+          <ScalarProperty Name="MaChiTietDatSach" ColumnName="MaChiTietDatSach" />
+          <ScalarProperty Name="MaSach" ColumnName="MaSach" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATSACHes">
+      <EntityTypeMapping TypeName="BookStoreModel.DATSACH">
+        <MappingFragment StoreEntitySet="DATSACH">
+          <ScalarProperty Name="MaDatSach" ColumnName="MaDatSach" />
+          <ScalarProperty Name="NgayDat" ColumnName="NgayDat" />
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="BookStoreModel.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
+          <ScalarProperty Name="NgayLapHoaDon" ColumnName="NgayLapHoaDon" />
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+          <ScalarProperty Name="NhanVienTao" ColumnName="NhanVienTao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="BookStoreModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SoTienNo" ColumnName="SoTienNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="BookStoreModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDNhanVien" ColumnName="IDNhanVien" />
+          <ScalarProperty Name="TenNhanVien" ColumnName="TenNhanVien" />
+          <ScalarProperty Name="ChucVu" ColumnName="ChucVu" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Sdt" ColumnName="Sdt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUNHAPs">
+      <EntityTypeMapping TypeName="BookStoreModel.PHIEUNHAP">
+        <MappingFragment StoreEntitySet="PHIEUNHAP">
+          <ScalarProperty Name="MaPhieuNhap" ColumnName="MaPhieuNhap" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SACHes">
+      <EntityTypeMapping TypeName="BookStoreModel.SACH">
+        <MappingFragment StoreEntitySet="SACH">
+          <ScalarProperty Name="MaSach" ColumnName="MaSach" />
+          <ScalarProperty Name="TenSach" ColumnName="TenSach" />
+          <ScalarProperty Name="Catelogy" ColumnName="Catelogy" />
+          <ScalarProperty Name="TacGia" ColumnName="TacGia" />
+          <ScalarProperty Name="SoLuongTon" ColumnName="SoLuongTon" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ImageBook" ColumnName="ImageBook" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THELOAIs">
+      <EntityTypeMapping TypeName="BookStoreModel.THELOAI">
+        <MappingFragment StoreEntitySet="THELOAI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCate" ColumnName="IDCate" />
+          <ScalarProperty Name="NameCate" ColumnName="NameCate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
