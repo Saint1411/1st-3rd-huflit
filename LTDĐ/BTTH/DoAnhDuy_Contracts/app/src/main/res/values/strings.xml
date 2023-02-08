@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Vocabulary: Country</string>
-    <string name="action_search">Search</string>
-    <string name="action_sort">Sort</string>
-    <string name="action_back">Back</string>
-</resources>
